@@ -1,0 +1,61 @@
+
+.sliderZone{
+  position: relative;
+  width: 100% ;
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider_panel{
+  display: flex;
+  position: relative;
+  left:0;  /*좌표변경으로 스라이딩 표현 */
+  transition: left 0.5s ease; 
+}
+
+.slider_img{
+  min-width: 100%;
+}
+
+.slider_img img{
+  width: 100%;
+  display: block;
+}
+
+.control_panel{
+  position: absolute;
+  bottom:40px;
+  left:50%;
+  display: flex;
+  gap:5px;
+  transform: translateX(-50%);
+}
+
+.control_btn{
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.control_btn.active{
+  background-color: #FA5858;
+}
+
+.direct_btn{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  left: 10PX;
+  display: flex;
+  transform:translateY(-50%);
+  justify-content:space-between;
+}
+
+.direct_btn img{
+  width: 20px;
+  cursor: pointer;
+  /* background-color: #f66; */
+}

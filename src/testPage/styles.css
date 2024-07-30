@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  max-width: 1280px;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.header{
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+}
+.headNav{
+  position: absolute;
+  right: 15px;
+  top: 5px;
+}
+.headNav li{
+  margin-left: 10px;
+  float: left;
+}
+.title{
+  margin: 0 auto;
+}
+.title > h1{
+  text-align: center;
+  font-size: 50px;
+}
+
+
+.leftMenu{
+  float: left;
+}
+
+.mainComponent{
+  float: right;
+}

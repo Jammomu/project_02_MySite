@@ -1,0 +1,30 @@
+.mainComponent{
+  width: 65%;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  padding: 20px;
+  float: right;
+  overflow: hidden;
+  border: 2px solid #66c;
+}
+
+.mainComponent > h2{
+  text-align: left;
+}
+
+.section{
+  margin: 15px auto;
+  text-align: left;
+  clear: both;
+}
+
+.detail{
+  margin-bottom: 25px;
+}
+
+img{
+  width: 150px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  float: left;
+}
