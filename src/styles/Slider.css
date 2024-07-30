@@ -2,7 +2,7 @@
 .sliderZone{
   position: relative;
   width: 100% ;
-  max-width: 1920px;
+  height: 720px;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -11,7 +11,7 @@
   display: flex;
   position: relative;
   left:0;  /*좌표변경으로 스라이딩 표현 */
-  transition: left 0.5s ease; 
+  transition: left 0.5s ease;
 }
 
 .slider_img{

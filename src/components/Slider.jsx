@@ -1,7 +1,7 @@
 import '../styles/Slider.css';
-import sliderImg1 from '../img/main_banner001.png';
-import sliderImg2 from '../img/main_banner002.png';
-import sliderImg3 from '../img/main_banner003.png';
+import sliderImg1 from '../img/slider001.png';
+import sliderImg2 from '../img/slider002.png';
+import sliderImg3 from '../img/slider003.png';
 import leftBtnImg from '../img/left_btn.png';
 import rightBtnImg from '../img/right_btn.png';
 import { useState, useEffect } from 'react';
